@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #ADD8E6, #87CEEB);
+    transition: background-color 2s ease;
+}
+  
+.container {
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+.input-group {
+    margin-bottom: 10px;
+}
+  
+  
+.input-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.input-group input {
+    width: 200px;
+    padding: 5px;
+}
+
+#fahrenheitInput {
+    margin-right: 10px;
+}
+  
+#result {
+    margin-top: 20px;
+}
+  
+.input-group button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
